@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.css" media="screen" title="no title">
+    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title">
+    <title>Ping Pong</title>
+</head>
+
+<body>
+        <div class="row">
+            <div class="top col-md-12">
+                <header>
+                    <h1>PING-PONG-GAME</h1>
+                </header>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 middle">
+                <p>
+                    Learning Math is fun!!!
+                </p>
+                <!-- <div class="img">
+                  <img src="images/instructions.jpg" alt="" />
+                </div> -->
+
+                <ul>
+                    <li>Numbers divisible by 3 becomes ping</li>
+                    <li>Numbers divisible by 5 becomes pong</li>
+                    <li>Numbers divisible by both 5 and 3 becomes pingpong</li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 bottom">
+                <form id="gameform">
+                    <label for="goal">Enter a number:</label>
+                    <input id="goal" type="number">
+                    <button type="submit">Submit</button>
+                </form>
+                <ul id="answer"></ul>
+            </div>
+        </div>
+
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script type="text/javascript" src="js/scripts.js"></script>
+</body>
+
+</html>
