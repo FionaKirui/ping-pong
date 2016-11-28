@@ -19,7 +19,9 @@ background-color:#524B58;
 .bottom{
   background-color: purple;
   height: 600px;
-  background-image: url("../images/instructions.jpg");
+  background-image: url("../images/mathisfun.jpg");
   background-size: cover;
+  background-image: opacity 1;
+
 
 }
