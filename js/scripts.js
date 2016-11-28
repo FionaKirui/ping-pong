@@ -1,6 +1,6 @@
-function pingPong(goal) {
+function pingPong(solution) {
   var output = [];
-  for (var a = 1; a <= goal; a++) {
+  for (var a = 1; a <= solution; a++) {
     if (a % 15 === 0) {
       output.push("ping-pong");
     } else if (a % 3 === 0) {
@@ -17,8 +17,8 @@ function pingPong(goal) {
 $(document).ready(function() {
   $('#gameform').submit(function(event) {
     event.preventDefault();
-    var goal = $('#goal').val();
-    var output = pingPong(goal);
+    var solution = $('#soution').val();
+    var output = pingPong(solution);
     output.forEach(function(element) {
       $('#answer').append("<li>" + element + "</li>");
     });
