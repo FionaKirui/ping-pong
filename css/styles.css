@@ -1,0 +1,25 @@
+body {
+  /*background-color:#524B58*/
+
+  /*height: 1200px;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  z-index: 2;*/
+}
+.top{
+background-color:#524B58;
+
+}
+
+.middle{
+  background-color: lightgreen;
+
+}
+.bottom{
+  background-color: purple;
+  height: 600px;
+  background-image: url("../images/instructions.jpg");
+  background-size: cover;
+
+}
