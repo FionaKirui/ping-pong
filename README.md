@@ -1,3 +1,22 @@
 # ping-pong
-web application that takes a number from a user and returns a range of numbers from 1 to the chosen number with the following exceptions: 
-Numbers divisible by 3 are replaced with "ping" Numbers divisible by 5 are replaced with "pong" Numbers divisible by 15 are replaced with "pingpong"
+This is an  assignment on object-oriented programming.
+It tests the understanding of  necessary tools such as if-/else-statements and loops.
+if the number is divisible by 3 print ping;
+if the number is divisible by 5 print pong;
+if the number is divisible by 3 and 5 print ping-pong;
+else, print the number.
+
+## Code Example
+9 is divisible by 3 hence ping;
+10 is divisible by 5 hence pong;
+15 is divisible by 3 and 5 hence ping-pong;
+19 is not divisible by either number hence, print the number;
+
+
+## Motivation
+This was an object-oriented example at Moringa School.
+
+
+## License
+
+All rights belong to Moringa School.
